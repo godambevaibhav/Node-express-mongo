@@ -1,0 +1,31 @@
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --dbpath="D:\Vaibhav_Go\mongoDb"
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo (strat the mongo)
+
+use dbname to create db
+db.getconnection
+
+
+> db.mydemoDb.insertOne({name:"company inc",adress:"pune"});
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5b6fa78a2cbd863bc57fc1e8")
+}
+
+
+> db.getCollection("mydemoDb").find({});
+{ "_id" : ObjectId("5b6fa78a2cbd863bc57fc1e8"), "name" : "company inc", "adress"
+ : "pune" }
+--------------------------------------------------------
+
+
+
+npm init
+
+npm i monodb
+
+npm body-parser express cors
+
+
+node node customers_service.js
